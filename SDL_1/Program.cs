@@ -121,6 +121,9 @@ class Program
 
     static void ShowMenu()
     {
+        Console.WriteLine("");
+        Console.WriteLine("");
+        Console.WriteLine("---------------------------------------------------------------------------------------");
         Console.WriteLine("\nВыберите действие:");
         Console.WriteLine("1. Показать информацию о дисках");
         Console.WriteLine("2. Показать текущую рабочую директорию");
@@ -140,6 +143,9 @@ class Program
         Console.WriteLine("16. Получить размер ZIP архива");
         Console.WriteLine("17. Разархивировать ZIP архив");
         Console.WriteLine("18. Выход");
+        Console.WriteLine("---------------------------------------------------------------------------------------");
+        Console.WriteLine("");
+        Console.WriteLine("");
     }
 
     static void ShowCurrentDirectory()
